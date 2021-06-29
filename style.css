@@ -1,0 +1,176 @@
+:root {
+    --base-color: rgb(238, 238, 238);
+    --base-color-primary: #fff;
+    --primary-color: rgb(73, 0, 73);
+    --secondar-color: rgb(94, 90, 136);
+    --gray-color-light: rgb(202, 202, 202);
+    --gray-color-dark: #000000;
+    --button-primary-color: green;
+    }
+    
+    /* Body styles */
+    #wrapper {
+        position: absolute;
+        left: 30%;
+        top: 20%;
+        width: 500px;
+        height: 500px;
+    
+    }
+    #quizstart {
+        background-color:var(--button-primary-color) ;
+        margin-left: 33%;
+        padding: 15px 32px;
+        font-size: 20px;
+        color:var(-base-color);
+    }
+    #questionslist {
+        margin: 20px;
+        font-family: chalkduster;
+        font-family: fantasy;
+    }
+    
+    #timer {
+        float: right;
+    }
+    
+    button {
+        border-radius: 8px;
+    }
+    
+    textarea {
+        width: 90%;
+        margin: 20px;
+    }
+    
+    
+    label {
+        margin-right: 10px;
+    }
+    input {
+        margin-bottom: 20px;
+        width: 50%;
+        border: 1px solid lightgray;
+    }
+    
+    h1 {
+        text-align: center;
+        color: var(--secondar-color);
+        
+    }
+    
+    li {
+        background-color:var(--base-color);
+        margin-top: 10px;
+        padding: 5px 15px;
+        width: 80%;
+        font-size: 18px;
+        color:var(--primary-color);
+        cursor: pointer;
+    }
+    li :hover {
+        background-color: var(--gray-color-light);
+        }
+        
+    /* View Highscore styling */
+        nav a {
+            color:--secondar-color;
+            font-family: chalkduster;
+            font-family: fantasy;
+        }
+        nav a:hover {
+            color: goldenrod;
+        }
+        
+        nav a:link { text-decoration: none; }
+        
+        
+        nav a:visited { text-decoration: none; }
+        
+        
+        nav a:hover { text-decoration: none; }
+        
+        
+        nav a:active { text-decoration: none; }
+    
+    #createDiv {
+        margin-top: 20px;
+        border-top: 1px solid lightgray;
+    }
+    
+    /* media queries */
+    @media screen and (max-width: 786px) {
+    body {
+        max-width: 786px;
+    }
+    
+    @media screen and (max-width: 640px) {
+        body {
+            min-width: 640px;
+        }
+    
+    /* View highscores HTML file Styling */
+    #wrapper {
+    position: absolute;
+    left: 20%;
+    }
+    
+    a {
+    margin-left: 20%;
+    }
+    #goBack {
+        
+        position: relative;
+        left: 55%;
+    }
+    
+    #clear {
+        
+        position: relative;
+        right: 5%;
+        
+    }
+    }
+    
+    #wrapper {
+    position: absolute;
+    left: 10%;
+    }
+    a {
+      margin-left: 10%;
+    }
+    
+    
+    }
+    
+    #Submit {
+        background-color:var(--button-primary-color) ;
+        margin-left: 33%;
+        padding: 15px 32px;
+        font-size: 20px;
+        color: (var--base-color);
+    }
+    
+    #goBack {
+        background-color:var(--button-primary-color) ;
+        position: relative;
+        padding: 10px;
+        font-size: 20px;
+        color: var(--base-color-primary);
+        top: 30%;
+        left: 55%;
+        width: auto;
+        text-align: center;
+        text-decoration: none;
+    }
+    
+    #clear {
+        background-color: var(--button-primary-color);
+        position: relative;
+        padding: 10px;
+        font-size: 20px;
+        color: var(--base-color);
+        top: 30%;
+        right: 5%;
+        text-align: center;
+    }
