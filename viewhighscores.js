@@ -24,5 +24,5 @@ if (allScores !== null) {
 }
 // Event listener to move to main page
 goBack.addEventListener("click", function () {
-    window.location.replace("Code-Quiz-\index.html");
+    window.location.replace("./index.html");
 })

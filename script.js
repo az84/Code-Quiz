@@ -192,7 +192,7 @@ function allDone() {
             var newScore = JSON.stringify(allScores);
             localStorage.setItem("allScores", newScore);
             // Takes to high score page
-            window.location.replace("Code-Quiz-\viewhighscores.html");
+            window.location.replace("./viewhighscore.html");
         }
     });
 }
