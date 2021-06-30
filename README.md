@@ -10,7 +10,7 @@
 
 For this project we were required to build a timed coding quiz with multiple-choice questions from scratch. The application will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code. It will have a clean, polished, and responsive user inteface. The quiz asks the user a series of question where the user is given 75 seconds to complete the quiz. A wrong answer results in a penalty of -10 seconds. The user's final score is equal to the number of seconds left on the clock after the final question is answered.
 
-**Deployed Link:** 
+**Deployed Link:** https://az84.github.io/Code-Quiz/
 
 ***
 ## Demo:
